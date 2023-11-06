@@ -6,6 +6,7 @@
 }
 .menubar img {
   height: 20px;
+  margin-left: 15px;
 }
 .menubar li {
   display: inline;
