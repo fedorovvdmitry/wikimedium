@@ -20,3 +20,23 @@
     body { min-width: 320px; } 
     article > * { width: calc(100% - 40px); }
 }
+
+@media screen and (max-with: 1279px) {
+	.index-item {
+		width: 740px;
+	}
+}
+@media screen and (max-with: 767px) and (orientation: portrait){
+	body {
+		background-color: white;
+
+	}
+	.index-item {
+		width: 100vw;
+		box-shadow: none;
+		border: none;
+	}
+	.index-item img {
+		height: 100vw;
+	}
+}
